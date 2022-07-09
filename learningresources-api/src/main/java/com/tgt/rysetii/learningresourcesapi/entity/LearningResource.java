@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class LearningResource {
     Integer resourceId;
-    String name;
+    String productName;
     Double costPrice;
     Double sellingPrice;
     LearningResourceStatus productStatus;
@@ -15,9 +15,9 @@ public class LearningResource {
     public LearningResource(){
 
     }
-    public LearningResource(Integer resourceId, String name, Double costPrice, Double sellingPrice, LearningResourceStatus productStatus, LocalDate createdDate, LocalDate publishedDate, LocalDate retiredDate){
+    public LearningResource(Integer resourceId, String productName, Double costPrice, Double sellingPrice, LearningResourceStatus productStatus, LocalDate createdDate, LocalDate publishedDate, LocalDate retiredDate){
         this.resourceId=resourceId;
-        this.name=name;
+        this.productName=productName;
         this.costPrice=costPrice;
         this.sellingPrice=sellingPrice;
         this.productStatus=productStatus;
